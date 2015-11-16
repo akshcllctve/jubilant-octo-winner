@@ -449,11 +449,24 @@ p {
 
 
 
-.padded-sm {
+.padded-sm-top {
+  padding-top: 0px;
+    padding-bottom: 35px;
+
+}
+
+.padded-sm-middle {
+  padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.padded-sm-bottom {
   padding-top: 35px;
     padding-bottom: 100px;
 
 }
+
 
 
 .social {
@@ -494,6 +507,7 @@ li {
 }
 
 /* mobile */
+
 
 @media only screen and (max-width: 767px) {
 .sux {
@@ -574,6 +588,15 @@ width: 100%;
  background-color: transparent;
   text-decoration: none;
 }
+
+.navbar-nav > li > a {
+  padding-left: 0px;
+  padding-bottom: 0px;
+    padding-top: 0px;
+    display: inline;
+    font-size:12px;
+
+
 }
 
 
