@@ -1,12 +1,19 @@
 body {
-  background-image: url('/img/pback.jpg');
-  background-attachment: fixed;
-    background-size: cover;
+ /* background-image: url('/img/glitter.jpg');
+ background-repeat: repeat;*/
+background-color: rgb(43, 38, 33);
   padding-top: 0px;
-  color: #ffefe5;
+  color: #ffffff;
 
 }
 
+/*
+.contenthover { padding:20px 20px 10px 20px; }
+.contenthover, .contenthover h3, contenthover a { color:#fff; }
+.contenthover h3, .contenthover p { margin:0 0 10px 0; line-height:1.4em; padding:0; }
+.contenthover a.mybutton { display:block; float:left; padding:5px 10px; background:#3c9632; color:#fff; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.contenthover a.mybutton:hover { background:#34742d }
+*/
 
 .social a {
 color: #ffefe5;
@@ -36,26 +43,37 @@ cursor: auto;
 }
 
 .navbar-default {
-background-color:  #ffefe5;
+background-color:  #ffffff;
   border: none;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #fb036b;
+
+color: #000000;
 }
 .navbar-default .navbar-brand {
-  color:#fb036b;
+
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus
 {
-  color:#ffefe5;
-  background-color: #fb036b;
+  color:#ffffff;
+  background-image: url('/img/glitter.jpg');
+
+}
+
+.purple {
+  background-image: url('/img/glitter.jpg');
+}
+
+.purple-font {
+
+  color:#ffffff;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color:#ffefe5;
-  background-color: #fc78a8;
+  color:#FFFFFF;
+background-image: url('/img/glitter.jpg');
 }
 .pattern {
   background-image: url('/img/pback.jpg');
@@ -217,7 +235,7 @@ color: #222;
 /* container and font styling */
 
 .white {
-     background-color: #ffefe5;
+     background-color: #ffffff;
      color: #222;
 }
 
@@ -231,7 +249,7 @@ color: #222;
 }
 
 .yellow {
-      background-color:rgba(251,3,107,0.5);
+     /* background-color:rgba(251,3,107,0.5); */
 }
 .white-font {
   color: #ffefe5;
@@ -243,24 +261,20 @@ color: #222;
   color: #000;
 }
 .pink {
-background-color: #fb036b;
+background-color: #d0d0d0;
 }
 .pink-font {
-  color:#ff0056;
+  color:#000000;
 }
 .blue-font {
   color: #5A26FF;
 }
-.purple-font {
-  color: #fc78a7;
-}
+
 
 .black-font {
   color: #222;
 }
-.purple {
-  background-color: #fc78a7;
-}
+
 .red {
   background-color: #fe0427;
 }
@@ -496,7 +510,7 @@ li {
   font-size: 35px;
 }
 body {
-  background-color: #fb036b;
+ background-color: rgb(43, 38, 33);
     background-image: url('');
 
 

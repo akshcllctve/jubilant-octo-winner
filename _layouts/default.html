@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="store">
     <head>
+      <meta name="google-site-verification" content="P3bENRTTjJNYuBXW4KKvSreSnLx5JWb2T8WqUaXhMRs" />
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
@@ -13,27 +14,26 @@
 {% include analytics.html %}
 
     </head>
-  
+  <body>
 <div class="container-fluid white">
 <div class="container hidden-xs">
   <div class="row">
-    <div class="col-sm-4">
-<img src="/img/pnuts3.jpg" class="img-responsive">
+    <div class="col-md-4">
+<a href="/"><img src="/img/rider.jpg" class="img-responsive"> </a>
 </div>
-<div class="col-sm-8"> {% include navigation.html %} </div>
-
+<div class="col-xs-8"> {% include navigation.html %} </div>
 </div>
-
 </div>
 
 
 <div class="container visible-xs">
   <div class="row">
-    <div class="col-xs-6">
-<img src="/img/pnuts3.jpg" class="img-responsive">
-</div>
-<div class="col-xs-6"> {% include navigation.html %} </div>
-
+   
+    <div class="col-xs-12"> {% include navigation.html %} 
+  </div>
+   <div class="col-xs-12">
+      <img src="/img/rider.jpg" class="img-responsive">
+    </div>
 </div>
 
 </div>
@@ -44,11 +44,22 @@
 
 {{ content }}
 
-      <script src="{{ site.baseurl }}/js/jquery.js"></script>
+ 
+
       <script src="{{ site.baseurl }}/js/bootstrap.js"></script>
          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
 <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/jquery.validate.min.js"></script>
-<script type="text/javascript"> $(document).ready(function(){ $("#contactForm").validate(); }); </script>
+<script type="text/javascript"> 
+$(document).ready(function(){ 
+  $("#contactForm").validate(); 
+
+
+}); 
+
+
+</script>
+
 
     </body>
 </html>

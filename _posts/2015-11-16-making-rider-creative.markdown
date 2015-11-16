@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  Making primaryattraction.com
+title:  Making ridercreative.com
 categories: Blog Articles
-permalink: making-primary-attraction.com/
-
+permalink: making-ridercreative.com/
 ---
 
 
@@ -11,11 +10,11 @@ permalink: making-primary-attraction.com/
 
 <img class="img-responsive" src="/img/tools.jpg">
 
-At Primary Attraction, we build websites with the best tools available.  Our goal is to make websites that - in addition to perfectly expressing your brand and effectively serving your business objectives-  are beautiful, fast, and delightful to use.  
+At Rider Creative, we build websites with the best tools available.  Our goal is to make websites that - in addition to perfectly expressing your brand and effectively serving your business objectives-  are beautiful, fast, and delightful to use.  
 
 All our websites are built from scratch, static and responsive.  That means they're custom designed, super secure, fast to load and capable of handling lots of traffic,(important for when your marketing campaign goes viral!), and look good on all screens including phones and ipads.
 
-We're really into software, and are constantly trying out new tools to make sure we are using the best available platforms and services to build our sites and manage marketing campaigns.  Today we are going to share the tools used to make primaryattraction.com - the same ones we use to make all our clients' sites.  Right now, to us, these are the best of the best.
+We're really into software, and are constantly trying out new tools to make sure we are using the best available platforms and services to build our sites and manage marketing campaigns.  Today we are going to share the tools used to make ridercreative.com - the same ones we use to make all our clients' sites.  Right now, to us, these are the best of the best.
 
 ####**Tools and services we use and love for making websites.**
 
@@ -43,8 +42,7 @@ Once the site is published, we use [Google Analytics](http://www.google.com/anal
 
 At this point we also like to generate a brand **style guide** using [Stylify Me](http://stylifyme.com).  Now we have a handy reference for font styles and colors!
 
-That's everything we used to build this website.  Thanks to everyone out there working hard developing these amazing tools and services.  With these resources, there's never been a better (or more fun!) time to build a business online.  We truly love making websites, and we'd love to make yours. If you want a world class platform to build your business on [get in touch](http://primaryattraction.com/contact/).
-
+That's everything we used to build this website.  Thanks to everyone out there working hard developing these amazing tools and services.  With these resources, there's never been a better (or more fun!) time to build a business online.  We truly love making websites, and we'd love to make yours. If you want a world class platform to build your business on [get in touch](http://ridercreative.com/contact/).
 
 
 
