@@ -277,6 +277,9 @@ border-radius: 0px;
 color: #222;
 }
 
+.form-control {
+  border-radius: 0px;
+}
 
 /* container and font styling */
 
