@@ -33,6 +33,9 @@ background-color: rgb(43, 38, 33);
 
 
 
+.fadeInBlock {
+    opacity:0;
+}
 .navbar-toggle .icon-bar {
     display: block;
     width: 40px;
@@ -298,7 +301,7 @@ color: #222;
 }
 
 .yellow {
-     /* background-color:rgba(251,3,107,0.5); */
+
 }
 .white-font {
   color: #FFFFFF;
@@ -484,6 +487,13 @@ p {
     padding-bottom: 100px;
 
 }
+
+.padded-big-top {
+  padding-top: 100px;
+    padding-bottom: 35px;
+
+}
+
 .padded-med {
   padding-top: 65px;
     padding-bottom: 100px;
@@ -496,6 +506,16 @@ p {
 
 }
 
+.padded-f {
+  padding-top: 0px;
+    padding-bottom: 100px;
+
+}
+.padded-g {
+  padding-top: 0px;
+    padding-bottom: 50px;
+
+}
 
 
 .padded-sm-top {
