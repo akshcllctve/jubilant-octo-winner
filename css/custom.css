@@ -23,18 +23,22 @@ font-family: 'Cedarville Cursive', cursive;
 /* begin placeholder styling */
 #goldplace::-webkit-input-placeholder {
    color: #8f6e1c;
+
 }
 
 #goldplace:-moz-placeholder { /* Firefox 18- */
    color: #8f6e1c;  
+
 }
 
 #goldplace::-moz-placeholder {  /* Firefox 19+ */
    color: #8f6e1c;  
+
 }
 
 #goldplace:-ms-input-placeholder {  
    color: #8f6e1c;  
+
 }
 
 /* end placeholder styling */
@@ -150,26 +154,7 @@ text-decoration: underline;
 cursor: auto;
 }
 
-.navbar-default {
 
-      border: 35px solid transparent;
-          background-image: url('/img/concrete_seamless.png') ;
-}
-
-.navbar-default .navbar-nav > li > a {
-
-color: #000000;
-}
-.navbar-default .navbar-brand {
-
-}
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus
-{
-  color:#ffffff;
-  background-color: #1b0030;
-
-}
 
 .purple {
   background-image: url('/img/glitter.jpg');
@@ -331,11 +316,11 @@ background-color: #1b0030;
 
 /* contact form */
 .input-field {
-height: 46px;
-padding: 5px 5px 5px 18px;
+height: 65px;
+padding: 5px 5px 5px 5px;
 margin: 5px;
 font-size: 35px;
-line-height: 1.33;
+line-height: normal;
 border-radius: 0px;
 color: #222;
 }
@@ -343,6 +328,7 @@ color: #222;
 .form-control {
   border-radius: 0px;
   font-size:30px;
+  height: 55px;
 }
 
 
