@@ -1,13 +1,73 @@
 body {
  /* background-image: url('/img/glitter.jpg');
  background-repeat: repeat;*/
-background-color: rgb(43, 38, 33);
 
   padding-top: 0px;
   color: #ffffff;
+    font-family: 'Chathura', sans-serif;
+    font-size: 35px;
 
 }
 
+.gold {
+  background-color: #8f6e1c;
+}
+.brown {
+  background-color: #362023;
+}
+
+/*
+font-family: 'Chathura', sans-serif;
+font-family: 'Cedarville Cursive', cursive;
+*/
+/* begin placeholder styling */
+#goldplace::-webkit-input-placeholder {
+   color: #8f6e1c;
+}
+
+#goldplace:-moz-placeholder { /* Firefox 18- */
+   color: #8f6e1c;  
+}
+
+#goldplace::-moz-placeholder {  /* Firefox 19+ */
+   color: #8f6e1c;  
+}
+
+#goldplace:-ms-input-placeholder {  
+   color: #8f6e1c;  
+}
+
+/* end placeholder styling */
+.chat {
+  font-family: 'Chathura', sans-serif;
+  font-size: 65px;
+}
+
+input.form-control {
+  color: #8f6e1c;
+}
+textarea.form-control {
+  color: #8f6e1c;
+}
+.cedar {
+  font-family: 'Cedarville Cursive', cursive;
+
+      font-size: 35px;
+}
+.gold-font {
+  color: #8f6e1c;
+}
+.recheck {
+width: 45px;
+}
+li.todo {
+  text-decoration: underline;
+}
+
+.perriwinkle {
+  background-color: rgba(113, 134, 222,0.2);
+
+}
 /*
 .contenthover { padding:20px 20px 10px 20px; }
 .contenthover, .contenthover h3, contenthover a { color:#fff; }
@@ -59,8 +119,8 @@ color: #ffefe5;
 text-decoration: none;
 }
 
-.dark {
-background-color: #1b002f;
+.pink {
+background-color: #ff0078;
 }
 
 .center { 
@@ -127,13 +187,13 @@ background-color: #1b0030;
 .pattern {
   background-image: url('/img/pback.jpg');
 }
-.btn-pink {
+.btn-brown {
   padding: 3px;
-    color: #000;
+    color: #fff;
   display: inline-block;
-  padding: 8px 30px;
-  margin: 5px;
-  font-size: 22px;
+    padding: 15px 45px;
+ margin: 0px;
+  font-size: 35px;
      font-weight: 200;
   line-height: 1.4;
   text-align: center;
@@ -146,25 +206,25 @@ background-color: #1b0030;
           user-select: none;
   border: 1px solid transparent;
   border-radius: 0px;
-    background-image: url('/img/concrete_seamless.png') ;
+    background-color: #362023 ;
 }
 
-.btn-pink:focus,
-.btn-pink:active:focus,
-.btn-pink.active:focus {
+.btn-brown:focus,
+.btn-brown:active:focus,
+.btn-brown.active:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-.btn-pink:hover,
-.btn-pink:focus {
+.btn-brown:hover,
+.btn-brown:focus {
   color: #ffffff;
-  background-color: #000;
+  background-color: #8f6e1c;
   text-decoration: none;
   background-image: none;
 }
-.btn-pink:active,
-.btn-pink.active {
+.btn-brown:active,
+.btn-brown.active {
   background-image: none;
   outline: 0;
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
@@ -274,7 +334,7 @@ background-color: #1b0030;
 height: 46px;
 padding: 5px 5px 5px 18px;
 margin: 5px;
-font-size: 22px;
+font-size: 35px;
 line-height: 1.33;
 border-radius: 0px;
 color: #222;
@@ -282,6 +342,7 @@ color: #222;
 
 .form-control {
   border-radius: 0px;
+  font-size:30px;
 }
 
 
@@ -312,11 +373,9 @@ color: #222;
 .black-font {
   color: #000;
 }
-.pink {
-background-color: #d0d0d0;
-}
+
 .pink-font {
-  color:#000000;
+  color:#ff0078;
 }
 .blue-font {
   color: #5A26FF;
@@ -433,7 +492,9 @@ font-size: 18px;
 }
 
 
-
+.brown-font {
+  color: #362023;
+}
 .headline {
 
   font-size: 30px;
@@ -590,6 +651,14 @@ li {
   font-weight: 200;
 }
 
+.chat {
+  font-size: 35px;
+}
+.cedar {
+  font-family: 'Cedarville Cursive', cursive;
+
+      font-size: 28px;
+}
 .suxy {
   font-size: 18px;
   font-weight: 200;
@@ -598,12 +667,7 @@ li {
 .giant {
   font-size: 35px;
 }
-body {
- background-color: rgb(43, 38, 33);
-    background-image: url('');
 
-
-}
    h1 {
       font-size: 25px;
    }

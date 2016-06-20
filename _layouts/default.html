@@ -11,6 +11,7 @@
          <link rel="stylesheet" href="{{ site.baseurl }}/css/custom.css">
          <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" />
          <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+         <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive|Chathura" rel="stylesheet">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
@@ -34,37 +35,9 @@
   <body>
 
 
-<div id="custom-bootstrap-menu" class="navbar navbar-default" role="navigation">
-    <div class="container-fluid">
-        <div class="navbar-header"><a class="pull-left" href="/"><img src="/img/ac8.png"></a>
-           
-        </div>
-        <div class="collapse navbar-collapse navbar-menubuilder">
-            <ul class="nav navbar-nav navbar-right">
-                 <li class="{% if page.url == '/' %}active{% endif %}"><a href="/"><strong>Home</a></strong>
-                </li>
-                <li class="{% if page.url == '/about/' %}active{% endif %}"><a href="/about/"><strong>About Us</a></strong>
-                </li>
-
-                <li class="dropdown {% if page.categories contains 'solutions' %}active{% endif %}">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strong>Solutions<span class="caret"></span></strong></a>
-                <ul class="dropdown-menu">
-                  <li><a href="/consultingandadvising/"><strong>Consulting + Advising</a></strong></li>
-                  <li><a href="/projectmanagement/"><strong>Project Management</a></strong></li>
-                  <li><a href="/creative/"><strong>Marketing + Creative</a></strong></li>
-                 
-        </ul>
-
-                 <li class="{% if page.url == '/contact/' %}active{% endif %}"><a href="/contact/"><strong>Contact Us</a></strong>
 
 
-                </li>
-
-        
-            </ul>
-        </div>
-    </div>
-</div>
+    
 
 {{ content }}
 
